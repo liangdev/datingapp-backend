@@ -1,0 +1,11 @@
+{
+  "name": "dating-sample",
+  "version": "0.0.1",
+  "dependencies": {
+    "koa": "^1.2.0",
+    "koa-body": "^1.4.0",
+    "koa-router": "^5.4.0",
+    "mongodb": "^2.1.18",
+    "node-uuid": "^1.4.7"
+  }
+}
