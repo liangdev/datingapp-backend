@@ -1,5 +1,5 @@
 {
-  "mongodb": {
-    "url": "mongodb://localhost:27017/dating_sample"
-  }
+    "mongodb": {
+        "url": "mongodb://localhost:27017/dating_sample"
+    }
 }
