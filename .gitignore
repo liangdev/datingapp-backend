@@ -40,3 +40,4 @@ pkg/
 node_modules/
 apidoc/
 config/development.json
+coverage/

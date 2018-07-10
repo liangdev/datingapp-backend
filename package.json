@@ -2,7 +2,7 @@
   "name": "dating-sample",
   "version": "0.0.1",
   "scripts": {
-    "coverage": "istanbul cover --report lcov _mocha"
+    "coverage": "istanbul report"
   },
   "dependencies": {
     "koa": "^1.2.0",
