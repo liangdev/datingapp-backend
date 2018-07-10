@@ -1,11 +1,18 @@
 {
   "name": "dating-sample",
   "version": "0.0.1",
+  "scripts": {
+    "coverage": "istanbul cover --report lcov _mocha"
+  },
   "dependencies": {
     "koa": "^1.2.0",
     "koa-body": "^1.4.0",
     "koa-router": "^5.4.0",
     "mongodb": "^2.1.18",
     "node-uuid": "^1.4.7"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0"
   }
 }
