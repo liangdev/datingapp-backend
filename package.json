@@ -1,19 +1,20 @@
 {
-  "name": "dating-sample",
-  "version": "0.0.1",
-  "scripts": {
-    "coverage": "nyc --reporter=lcov  mocha"
-  },
-  "dependencies": {
-    "koa": "^1.2.0",
-    "koa-body": "^1.4.0",
-    "koa-router": "^5.4.0",
-    "mongodb": "^2.1.18",
-    "node-uuid": "^1.4.7",
-    "nyc": "^12.0.2"
-  },
-  "devDependencies": {
-    "istanbul": "^0.4.5",
-    "mocha": "^5.2.0"
-  }
+    "name": "dating-sample",
+    "version": "0.0.1",
+    "scripts": {
+        "coverage": "nyc --reporter=lcov mocha --recursive router/*.js test/*.js"
+    },
+    "dependencies": {
+        "@theleague/spark": "1.0.0-rc2",
+        "koa": "^1.2.0",
+        "koa-body": "^1.4.0",
+        "koa-router": "^5.4.0",
+        "mongodb": "^2.1.18",
+        "node-uuid": "^1.4.7",
+        "nyc": "^12.0.2"
+    },
+    "devDependencies": {
+        "istanbul": "^0.4.5",
+        "mocha": "^5.2.0"
+    }
 }
